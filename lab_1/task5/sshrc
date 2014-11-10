@@ -1,0 +1,4 @@
+p=`echo $SSH_CONNECTION | cut -d " " -f 1`
+
+logger -t ssh-wrapper $USER login from $ip
+echo "User $USER logged into your system!" | mail -s "Login to Ubuntu" sevak.avet@gmail.com
