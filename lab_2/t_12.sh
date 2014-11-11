@@ -1,3 +1,5 @@
+#!/bin/bash
+
 function isPrime {
   i=2
   while (( i * i <= $1 )); do

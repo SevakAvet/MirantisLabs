@@ -1,3 +1,5 @@
+#!/bin/bash
+
 mkdir -p html/files
 touch html/files/index.html
 

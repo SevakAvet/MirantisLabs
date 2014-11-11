@@ -1,3 +1,5 @@
+#!/bin/bash
+
 export filename_pattern="./[a-zA-Z]*"
 export text_pattern="[a-zA-Z]"
 

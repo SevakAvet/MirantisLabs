@@ -1,3 +1,5 @@
+#!/bin/bash
+
 if [ ! -f "$1" ] || [ ! -f "$2" ] || [ ! -f "$3" ]; then
   echo "Invlaid input! Files not found"
   exit 1

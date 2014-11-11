@@ -1,3 +1,5 @@
+#!/bin/bash
+
 n=$1
 ans=1
 cur=1

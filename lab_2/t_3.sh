@@ -1,3 +1,5 @@
+#!/bin/bash
+
 count=0
 
 ps aux | while read line; do

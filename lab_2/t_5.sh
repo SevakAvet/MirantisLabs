@@ -1,3 +1,5 @@
+#!/bin/bash
+
 sum=0
 
 while read line; do
