@@ -1,7 +1,8 @@
 #!/bin/bash
 
-if [ -z $1 ]; then
+if (( $# == 0 )); then
   whoami
 else
-  echo "$1"
+  eval var=\$$1
+  echo ${var}
 fi
