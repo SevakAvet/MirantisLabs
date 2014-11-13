@@ -10,7 +10,7 @@ function show_help() {
 }
 
 #checks if there are any arguments by (ab)using the short-circuited OR
-(( $# )) || echo "No arguments. Run $0 --help"
+(( $# )) || echo "No arguments. Run $0 -h"
 
 while getopts 'habc' opt; do
         case "$opt" in
